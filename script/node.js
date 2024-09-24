@@ -6,13 +6,11 @@ let mens = window.document.querySelector("section#msg")
 
 let ima = window.document.getElementById("imgs")
 
-agora = 22
-
 mens.innerHTML = `Agora são ${agora} horas.`
 
 let img = document.createElement('img')
 
-if (agora < 12 && agora > 0) {
+if (agora < 12) {
     
     img.setAttribute('src', 'imagem/imagem-m.jpg')
     img.alt = 'Descrição da imagem'
@@ -24,7 +22,7 @@ if (agora < 12 && agora > 0) {
     document.body.style.background  = '#F27405'  
 } else {
     img.setAttribute('src', 'imagem/imagem-n.jpg')
-    document.body.style.background = '#014040'
+    document.body.style.background = '#182625'
 }
 
 ima.appendChild(img)
