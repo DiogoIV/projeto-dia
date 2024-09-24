@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+
+body {
+    background-color: gray;
+}
+
+h1, footer {
+    color: white;
+    text-align: center;
+}
+
+main {
+    background-color: white;
+    width: 390px;
+    height: 290px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+section {
+    margin: auto;
+}
+
+section#msg {
+    padding: 1.5em;
+    text-align: center;
+}
+
+section#imgs img{
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: 180px;
+    border-radius: 50%;
+}
+
+footer {
+    padding: 10px;
+    font-size: 10px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
