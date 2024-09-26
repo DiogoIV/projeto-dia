@@ -8,6 +8,8 @@ let ima = window.document.getElementById("imgs")
 
 mens.innerHTML = `Agora são ${agora} horas.`
 
+agora = 19
+
 let img = document.createElement('img')
 
 if (agora < 12) {
